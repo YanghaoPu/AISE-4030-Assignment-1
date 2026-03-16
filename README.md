@@ -1,4 +1,4 @@
-# AISE-4030-Assignment-1
+
 # AISE 4030 Assignment 1 – Super Mario D3QN
 
 This project implements three Deep Q-Network based agents for **Super Mario Bros** and compares their training performance:
@@ -31,3 +31,29 @@ AISE-4030-Assignment-1/
 ├── d3qn_results/
 ├── d3qn_er_results/
 └── d3qn_per_results/
+
+
+Environment
+
+The environment used is:
+
+SuperMarioBros-1-1-v3
+
+Preprocessing includes:
+
+simplified action space using JoypadSpace
+
+grayscale observation
+
+resize to 84 x 84
+
+frame stack of 4
+
+Final observation shape:
+
+(4, 84, 84)
+
+Final action space:
+
+Discrete(2)
+
