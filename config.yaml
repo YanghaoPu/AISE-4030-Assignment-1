@@ -1,0 +1,19 @@
+# config.yaml
+agent_type: "d3qn_er"  # Change to "d3qn" for Task 1, or "d3qn_per" for Task 3
+env_name: "SuperMarioBros-1-1-v3"
+num_episodes: 5000
+max_steps_per_episode: 5000
+
+# Hyperparameters (Recommended in Section 7)
+gamma: 0.9
+learning_rate: 0.00025
+epsilon_start: 1.0
+epsilon_min: 0.1
+epsilon_decay: 0.99999975
+target_sync_steps: 10000
+grad_clip: 1.0
+
+# Task 2 & 3 Specific
+batch_size: 32
+buffer_capacity: 100000
+learning_starts: 1000
