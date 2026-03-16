@@ -1,4 +1,4 @@
-#AISE 4030 Assignment 1 - Super Mario D3QN
+# AISE 4030 Assignment 1 - Super Mario D3QN
 
 
 This project implements three Deep Q-Network based agents for Super Mario Bros and compares their training performance.
