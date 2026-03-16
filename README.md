@@ -1,6 +1,5 @@
-AISE 4030 Assignment 1 - Super Mario D3QN
+#AISE 4030 Assignment 1 - Super Mario D3QN
 
-_README document export_
 
 This project implements three Deep Q-Network based agents for Super Mario Bros and compares their training performance.
 
@@ -97,7 +96,7 @@ episode_rewards.npy
 episode_losses.npy  
 reward_curve.png  
 loss_curve.png  
-model_ep_500.pt
+model_ep_50.pt
 
 Some large .pt model files are not uploaded to GitHub because of file size limits.
 
@@ -107,20 +106,6 @@ Some large .pt model files are not uploaded to GitHub because of file size limit
 - GPU is recommended for faster training.
 - The final report compares reward and loss curves across the three agents.
 - All agents share the same network architecture and environment setup.
-
-# Team Contribution
-
-- Task 1: d3qn_agent.py
-- Task 2: replay_buffer.py, d3qn_er_agent.py
-- Task 3: per_buffer.py, d3qn_per_agent.py
-
-# Shared Files
-
-- environment.py
-- d3qn_network.py
-- training_script.py
-- config.yaml
-- utils.py
 
 # Course Information
 
